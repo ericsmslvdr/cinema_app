@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   style: TextButton.styleFrom(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 50, vertical: 10),
+                        horizontal: 50, vertical: 15),
                     backgroundColor: Colors.deepPurple,
                   ),
                 ),
