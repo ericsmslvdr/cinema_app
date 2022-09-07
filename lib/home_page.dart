@@ -58,14 +58,8 @@ class _HomePageState extends State<HomePage> {
               children: [
                 const SizedBox(height: 30),
                 const Text(
-                  'BLACK PANTHER:',
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold),
-                ),
-                const Text(
-                  'WAKANDA FOREVER',
+                  'BLACK PANTHER:\nWAKANDA FOREVER',
+                  textAlign: TextAlign.center,
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
@@ -100,7 +94,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   style: TextButton.styleFrom(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 50, vertical: 15),
+                        horizontal: 50, vertical: 10),
                     backgroundColor: Colors.deepPurple,
                   ),
                 ),
